@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Raleway &família= Roboto:ital,peso@1.500 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2,
+h3 {
+    font-weight: 600;
+    font-family: Courier New, monospace;
+}
+
+.contato {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    text-align: left;
+    background-image: url("fundoroxo.jpg");
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+
+b {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Header styles */
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(255, 228, 228, 0.1);
+    text-align: center;
+    background-image: url("fundoroxo.jpg");
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+
+/* Button animation */
+
+.button {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    transition: color 0.3s ease, font-size 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.button:hover {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+
+/* Section styles */
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+/* Contact form styles */
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact {
+    text-align: center;
+}
+
+
+/* Estilos para o formulário */
+
+#meuFormulario {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#meuFormulario input[type="text"],
+#meuFormulario textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#meuFormulario input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mensagemEnviada {
+    display: none;
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.image {
+    text-align: right;
+    margin-top: auto;
+}
+
+header {
+    animation: slideInDown 1s ease-in-out;
+}
+
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+header {
+    animation: slideInDown 1s ease-in-out;
+}
+
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

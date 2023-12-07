@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Cards</title>
+    <style>
+        /* Estilos para o texto */
+        
+        .texto {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* Substitua 'Roboto' pela fonte desejada */
+            /* Outros estilos */
+        }
+        /* Outros estilos para os cards */
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .card {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .card-description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            transition: opacity 0.3s ease-in-out;
+            opacity: 0;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .card:hover .card-description {
+            opacity: 1;
+        }
+        /* Estilos para o texto dos cards */
+        
+        .card-description h2 {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .card-description p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Meus Cards</h1>
+        <p class="texto">A integração das novas tecnologias tornou-se fundamental na educação, enriquecendo o processo de ensino-aprendizagem de maneira dinâmica e altamente proveitosa quando utilizada de forma responsável.</p>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <a href="https://www.educamaisbrasil.com.br/educacao/escolas/beneficios-e-desafios-da-tecnologia-na-educacao">
+                <img src="C:\Users\Administrador\Desktop\TCC\TCC\foto1.webp" alt="Benefícios e desafios da tecnologia na educação">
+                <div class="card-description">
+                    <h2>Educamaisbrasil</h2>
+                    <p>O Educamaisbrasil oferece informações detalhadas sobre os benefícios e desafios da implementação da tecnologia na educação, fornecendo insights valiosos para educadores e alunos.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://agenciabrasil.ebc.com.br/educacao/noticia/2023-08/redes-de-ensino-buscam-caminhos-para-o-uso-de-tecnologia-nas-escolas">
+                <img src="C:\Users\Administrador\Desktop\TCC\TCC\foto2.jpg" alt="Redes de ensino buscam caminhos para o uso de tecnologia nas escolas">
+                <div class="card-description">
+                    <h2>Agenciabrasil</h2>
+                    <p>A Agência Brasil apresenta as últimas tendências e discussões sobre como as redes de ensino estão buscando maneiras inovadoras de utilizar a tecnologia nas escolas, impactando a educação.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://www.arvore.com.br/blog/tecnologia-nas-escolas-conheca-as-vantagens-e-desvantagens">
+                <img src="C:\Users\Administrador\Desktop\TCC\TCC\foto4.jpg" alt="Tecnologia nas escolas: vantagens e desvantagens">
+                <div class="card-description">
+                    <h2>Arvore</h2>
+                    <p>O blog da Arvore explora detalhadamente as vantagens e desvantagens da presença da tecnologia nas escolas, oferecendo uma análise completa para quem busca compreender melhor esse cenário.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://www.proesc.com/blog/tecnologia-na-educacao/">
+                <img src="C:\Users\Administrador\Desktop\TCC\TCC\foto5.jpeg" alt="Tecnologia na educação: prós e contras">
+                <div class="card-description">
+                    <h2>Proesc</h2>
+                    <p>O Proesc aborda os prós e contras da integração da tecnologia na educação, explorando como essa relação pode ser benéfica e quais desafios podem surgir nesse processo.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
